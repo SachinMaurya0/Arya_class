@@ -78,8 +78,12 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'djongo',
-        'NAME': BASE_DIR / 'Arya_db',
-        'client': {}
+        'NAME': 'Aryabhatta',
+        'ClIENT' : {
+            'host': 'mongodb+srv://admin:admin@aryabhatta.hsj71uh.mongodb.net/Aryabhatta?retryWrites=true&w=majority&appName=Aryabhatta',
+            'username': 'admin',
+            'password': 'admin'
+        }
     }
 }
 
